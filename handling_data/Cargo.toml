@@ -1,0 +1,11 @@
+[package]
+name = "handling_data"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+actix-web = "4.9.0"
+serde_json = "1.0.132"
+serde = { version = "1.0.214", features = ["derive"] }
